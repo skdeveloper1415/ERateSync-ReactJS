@@ -1,0 +1,71 @@
+/* Customize the tooltip's container */
+.custom-tooltip.p-tooltip {
+    border-radius: 16px;
+    background: var(--brand-primary-50, #EFF8FF);
+    /* Shadows/shadow */
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px -1px rgba(0, 0, 0, 0.10);
+    padding: 0;
+
+}
+
+.custom-tooltip.p-tooltip.p-tooltip-top, .custom-tooltip.p-tooltip.p-tooltip-bottom {
+    padding: 0;
+}
+
+.custom-tooltip.p-tooltip .p-tooltip-text {
+    background: none;
+    padding: 8px;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    color: var(--brand-primary-950, #162B55);
+    font-size: var(--Size-base, 14px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.custm_checkbox.p-checkbox.p-checkbox-checked .p-checkbox-box.p-highlight {
+    border-color: #1570EF;
+    background: #1570EF;
+}
+
+.custm_checkbox.p-checkbox.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+    border-color: #1570EF;
+    background: #1570EF;
+    color: #ffffff;
+}
+
+.custm_inputtext.p-inputtext {
+    border-radius: var(--Border-Radius-rounded-lg, 8px);
+    border: 1px solid var(--Interface-Stroke-soft, #E5E7EB);
+    background: var(--Interface-Surface-component, #FFF);
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.custm_inputtext.p-inputtext:enabled:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0rem transparent;
+    border-color: #E5E7EB;
+}
+
+.custm_inputtext.p-inputtext:enabled:hover {
+    border-color: #E5E7EB;
+}
+
+.quickquestions.p-dialog .p-dialog-content {
+    border-radius: var(--Border-Radius-rounded-lg, 8px);
+    border: 1px solid var(--interface-stroke-soft, #E5E7EB);
+    background: var(--interface-surface-component, #FFF);
+    padding: 0;
+}
+
+.custm_input_menual.p-inputtext {
+    border-radius: 8px;
+    border: 1px solid var(--interface-stroke-default, #BECDE3);
+    background: var(--interface-surface-component-muted, #F5F6F7);
+    padding-right: 30px;
+}
+
+.quick_questions_list li:hover {color:#1570EF; cursor: pointer;}

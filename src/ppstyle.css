@@ -1,0 +1,89 @@
+
+.custcheck .p-checkbox .p-checkbox-box.p-highlight {
+  border-color: #1570EF !important;
+  background: #1570EF !important;
+}
+.custcheck .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+  border-color: #1570EF;
+  background: #1570EF;
+  color: #ffffff;
+}
+.custcheck .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem transparent;
+  border-color: #BECDE3;
+}
+.custcheck .p-checkbox .p-checkbox-box {
+  width: 18px;
+  height: 18px;
+}
+.custcheck .p-checkbox .p-checkbox-box .p-checkbox-icon {
+  transition-duration: 0.2s;
+  color: #ffffff;
+  font-size: 8px;
+}
+
+
+
+/* treeselect start */
+
+.p-treeselect-panel .p-treeselect-header {
+  display: none;
+}
+
+.p-treeselect .p-treeselect-label {
+  padding: 0.50rem 0.50rem !important;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.custtree .p-treeselect:not(.p-disabled).p-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem transparent;
+}
+
+.custchecktree .p-checkbox .p-checkbox-box.p-highlight {
+  border-color: #1570EF;
+  background: #1570EF;
+}
+.custchecktree.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+  border-color: #1570EF;
+  background: #1570EF;
+  color: #ffffff;
+}
+.custchecktree .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem transparent;
+  border-color: #BECDE3;
+}
+.custchecktree .p-checkbox .p-checkbox-box {
+  width: 18px;
+  height: 18px;
+}
+.custchecktree .p-checkbox .p-checkbox-box .p-checkbox-icon {
+  transition-duration: 0.2s;
+  color: #ffffff;
+  font-size: 8px;
+}
+.custchecktree .p-tree .p-tree-container .p-treenode .p-treenode-content .p-checkbox {
+  margin-right: 0.5rem;
+  margin-top: 5px;
+}
+.custchecktree .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+  border-color: #1570EF;
+  background: #1570EF;
+  color: #ffffff;
+}
+
+/* treeselect end */
+
+.p-sidebar-right .p-sidebar.custside {
+  width: 65rem !important;
+  height: 100%;
+  z-index: 99999;
+}
+/* .p-sidebar-mask.p-component-overlay {
+  pointer-events: auto;
+  z-index: 99999 !important;
+} */
